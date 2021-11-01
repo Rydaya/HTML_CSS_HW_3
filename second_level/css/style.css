@@ -1,0 +1,60 @@
+ .fixed_header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #c5cf0a;
+  z-index: 2;
+}
+.fixed_header h1 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+.text {
+  position: absolute;
+  top: 80px;
+  border: 2px solid #c5cf0a;
+  margin: 20px 50px;
+  padding: 40px 30px 20px;
+}
+.smile {
+  background-color: #4cef9a;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: relative;
+}
+.eye {
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.eye-1 {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+.eye-2 {
+  position: absolute;
+  top: 50px;
+  right: 70px;
+}
+.nose {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 130px;
+  left: 130px;
+}
+.mouth {
+  background-color: #fff;
+  height: 15px;
+  width: 120px;
+  position: absolute;
+  left: 90px;
+  bottom: 70px;
+}

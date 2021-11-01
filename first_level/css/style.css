@@ -1,0 +1,36 @@
+.block {
+  width: 350px;
+  height: 220px;
+  padding: 15px 10px 20px;
+  margin-bottom: 30px;
+  border: 2px dashed red;
+  background-color: #008000;
+}
+.square {
+  position: relative;
+}
+.square_element {
+  width: 100px;
+  height: 100px;
+}
+.square_red {
+  background-color: #fe8989;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.square_blue {
+  background-color: #7f8aec;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  z-index: 1;
+}
+.square_green {
+  background-color: #4cef9a;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 2;
+}
